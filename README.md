@@ -58,9 +58,10 @@ O build gera a pasta `dist/` e foi validado sem erros de compilação (TypeScrip
 4. **Duas interações reais implementadas.** (a) Menu mobile com abertura/fechamento, overlay em
    tela cheia, fechamento ao clicar em item e bloqueio de scroll do body; (b) tabs da seção "o
    dinheiro não some de uma vez" com estado controlado em React e `role="tablist"`/`tabpanel`
-   reais. Além disso, o formulário de contato (usado duas vezes na página) tem validação client-side
-   de nome/email/telefone/aceite de termos, mensagens de erro por campo e estado de sucesso após o
-   envio.
+   reais. Além disso, não foi implementado backend ou banco de dados para o recebimento e armazenamento
+   das informações enviadas pelo formulário de contato. O formulário de contato, utilizado em duas seções da página,
+   possui validação completa no lado do cliente (client-side), incluindo validação de nome, e-mail, telefone e aceite dos termos.
+   Também foram implementadas mensagens de erro específicas por campo e um estado de sucesso após o envio.
 
 ## Adaptações de conteúdo
 
